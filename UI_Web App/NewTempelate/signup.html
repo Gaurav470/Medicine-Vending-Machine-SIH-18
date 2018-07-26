@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <title>Mistique</title>
+    <link rel="stylesheet" href="Assets/css/main.css">
+<link rel="stylesheet" href="Assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Assets/Bootstrap/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+
+
+<body>
+<!--header-->
+<div class="">
+
+  <header id="header" class="sticky-top"></header>
+  <div id="signup" class="container form">
+  	<form action="newuser.html">
+  		<div class="form-group">
+  		<h3 class="gradient-border">Signup</h3>
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" id="name" required>
+			  </div><div class="form-group">
+				<label for="phone">Phone:</label>
+				<input type="number" class="form-control" id="phone" required>
+			  </div>
+  		<div class="form-group">
+				<label for="email">Email Id:</label>
+				<input type="email" class="form-control" id="email" required>
+			  </div>
+			  <div class="form-group">
+				<label for="uid">User Id:</label>
+				<input type="text" class="form-control" id="uid" required>
+			  </div>
+			  
+			  <div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd" required>
+			  </div>
+			   <div class="form-group">
+				<label for="confirm">Confirm Password:</label>
+				<input type="password" class="form-control" id="confirm" required>
+			  </div>
+			  <div class="checkbox">
+				<label><input type="checkbox">I accept the <a href=""  >Terms and Conditons.</a></label>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Register</button>
+			  <button type="reset" class="btn btn-danger">Cancel</button>
+			  <label>Already have an account? </label>&nbsp;<a href="#login">Login</a>
+  	</form>
+  </div>
+</div> 
+</body>
+</html>
